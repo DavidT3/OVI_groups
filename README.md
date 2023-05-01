@@ -12,10 +12,13 @@ The input sample file lives here, along with the region files necessary for anal
 2. **get_xray_data.ipynb** - Here we determine how much XMM data is available for these objects, download it, and process it into a scientifically usable state.
 3. **visualise_groups.ipynb** - Simple visualisations of the groups are created.
 4. **running_LTR_pipeline.ipynb** - We run a luminosity-temperature-radius pipeline to measure temperatures and luminosities within $R_{500}$ and $R_{2500}$, as well as the $R_{500}$ and $R_{2500}$ values themselves.
+5. **measure_gas_density_profiles.ipynb** - Make use of the LTR-derived $R_{500}$ and $R_{2500}$ values to create some surface brightness and density profiles, as well as gas-mass measurements.
 
 ### Outputs
 Contains anything generated and saved as part of this analysis, , e.g.:
 * Figures
 * Temperature and luminosities measured within overdensity radii
+* Surface brightness and density profiles
+* Gas mass measurements within overdensity radii
 
 Output X-ray data products are not included because of storage limitations on GitHub.
