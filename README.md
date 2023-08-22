@@ -1,4 +1,4 @@
-# Hot Gas in Low Redshift, Massive OVI/Ly-α Absorption Line Systems
+# Warm-Hot Gas in Low Redshift, Massive OVI/Ly-α Absorption Line Systems
 
 This repository contains sample files, outputs, and analysis notebooks for a set of galaxy groups selected using UV absorption of Lyman Alpha, with follow-up observations by XMM-Newton.
 
