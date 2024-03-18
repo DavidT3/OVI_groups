@@ -1,6 +1,6 @@
 *.ipynb_checkpoints
 *.fits
-xga_output
+*xga_output
 daxa_output
 data
 ls_images
