@@ -1,0 +1,4 @@
+# Region file format: DS9 astropy/regions
+icrs
+circle(328.65500000,-9.25900000,0.07416454) # dash=1
+annulus(328.65500000,-9.25900000,0.07787277,0.11124681) # color=white
