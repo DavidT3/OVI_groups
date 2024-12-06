@@ -43,7 +43,7 @@ query yes
 # Python supplied variables
 #################################################
 # Set up a list of paths to the spectra we want to fit, done like this to make it more dynamic
-set spec_paths {/mnt/ufs18/rs-033/mc2/OVI_groups/notebooks/lum_temp_rad_pipeline/chandra_spec/12833A_obsid15378_grp.pi}
+set spec_paths {/mnt/ufs18/rs-033/mc2/OVI_groups/notebooks/lum_temp_rad_pipeline/chandra_spec/r2500/12833A_obsid15378_grp.pi}
 
 # The energy limits applied to the spectra before fitting
 set ignore_lo_en 0.5
@@ -86,7 +86,7 @@ if {($norm_scale == True) && ([lindex $par_names 0] != "factor")} {
 set delta_fit_stat 1
 
 # Now the parameters that xga_extract needs
-set out_file ../../outputs/chandra_fits/12833A/12833A_constant*tbabs*apec_fit_results
+set out_file ../../outputs/chandra_fits/12833A/12833A_r2500_constant*tbabs*apec_fit_results
 set input_redshift 0.145
 set luminosity_confidence 68
 
