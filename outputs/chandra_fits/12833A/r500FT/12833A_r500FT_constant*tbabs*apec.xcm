@@ -43,7 +43,7 @@ query yes
 # Python supplied variables
 #################################################
 # Set up a list of paths to the spectra we want to fit, done like this to make it more dynamic
-set spec_paths {/mnt/ufs18/rs-033/mc2/OVI_groups/notebooks/lum_temp_rad_pipeline/chandra_spec/r500/J215437.2-091532.4_obsid2957_grp.pi /mnt/ufs18/rs-033/mc2/OVI_groups/notebooks/lum_temp_rad_pipeline/chandra_spec/r500/J215437.2-091532.4_obsid2958_grp.pi}
+set spec_paths {/mnt/ufs18/rs-033/mc2/OVI_groups/notebooks/lum_temp_rad_pipeline/chandra_spec/r500_froztemp/12833A_obsid15378_grp.pi}
 
 # The energy limits applied to the spectra before fitting
 set ignore_lo_en 0.5
@@ -63,7 +63,7 @@ set model_name constant*tbabs*apec
 #  Also have lists that define whether a parameter in the model will be linked across different spectra, and whether
 #  a parameter is frozen during fitting
 set par_names {factor nH kT Abundanc Redshift norm}
-set par_values {1.0 0.0414 3.0 0.3 0.078 1.0}
+set par_values {1.0 0.0264 3.0 0.3 0.145 1.0}
 set linking {F T T T T T}
 set freezing {F T F T T F}
 
@@ -86,8 +86,8 @@ if {($norm_scale == True) && ([lindex $par_names 0] != "factor")} {
 set delta_fit_stat 1
 
 # Now the parameters that xga_extract needs
-set out_file ../../outputs/chandra_fits/J215437.2-091532.4/J215437.2-091532.4_r500_constant*tbabs*apec_fit_results
-set input_redshift 0.078
+set out_file ../../outputs/chandra_fits/12833A/r500FT/12833A_r500FT_constant*tbabs*apec_fit_results
+set input_redshift 0.145
 set luminosity_confidence 68
 
 # This is where the lower and upper energy limits for the luminosity calculations go, xga_extract needs them
