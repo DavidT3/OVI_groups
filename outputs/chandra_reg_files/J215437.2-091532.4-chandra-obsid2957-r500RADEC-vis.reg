@@ -1,0 +1,15 @@
+# Region file format: DS9 astropy/regions
+icrs; circle(328.65500000,-9.25900000,0.07416454) # dash=1
+icrs; annulus(328.65500000,-9.25900000,0.07787277,0.11124681) # color=white
+j2000; circle(328.73019333,-9.21627333,0.00516694) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.74023833,-9.24037889,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.76141458,-9.24022667,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.68758375,-9.15784139,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.57598958,-9.31496833,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.60982542,-9.35712250,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.67984833,-9.36207944,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.75141375,-9.27818944,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.76449250,-9.28274500,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.71217417,-9.31273306,0.00395833) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.73602625,-9.30286472,0.00378417) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(328.75641458,-9.30590250,0.00378417) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"

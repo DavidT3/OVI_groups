@@ -1,0 +1,13 @@
+# Region file format: DS9 astropy/regions
+icrs; circle(129.44500000,44.37900000,0.04759817) # dash=1
+icrs; annulus(129.44500000,44.37900000,0.04997808,0.07139725) # color=white
+j2000; circle(129.41810708,44.39676333,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.42501417,44.41141222,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.38324250,44.40882611,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.43371875,44.42789194,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.40971042,44.33689306,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.43582125,44.33250944,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.35542542,44.34765444,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.46011250,44.43813444,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.47155750,44.42310778,0.00395778) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
+j2000; circle(129.41987750,44.42494333,0.00357417) # select=1 highlite=1 fixed=0 edit=1 move=1 delete=1 include=1 source=1 color=red width=1 font="helvetica 10 normal roman"
